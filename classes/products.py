@@ -46,3 +46,6 @@ class Product:
     def __str__(self):
         return f"{self.name}: {self.quantity} X {self.price} = {self.total_value}"
 
+
+    def __repr__(self):
+        return f"{self.name}: {self.quantity} | {self.price}"
